@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0c5fdbb1-c54a-4782-a5a5-11fe6269a777",
+            "Value": {
+                "id": "c67fd60b-82fd-4eea-8bbf-7667f2229c2e",
+                "resourcePath": "objects\\obj_playButton\\obj_playButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1385a661-6f63-4add-92c2-7477843922eb",
             "Value": {
                 "id": "d92e4a89-199f-456b-a63b-a1cfe7962a24",
@@ -55,6 +63,14 @@
             }
         },
         {
+            "Key": "378a1b10-e2a2-4dd2-ad39-fd3cdd80d73a",
+            "Value": {
+                "id": "23c51edb-c661-4c33-ae8c-93dbdf6a06ff",
+                "resourcePath": "views\\378a1b10-e2a2-4dd2-ad39-fd3cdd80d73a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "422c36d0-9fb7-449f-b474-0e92cda4425a",
             "Value": {
                 "id": "659ad567-f999-44ac-b064-dcd74fb5f397",
@@ -71,10 +87,26 @@
             }
         },
         {
+            "Key": "812e345f-93b8-4edd-9771-e997df2f3971",
+            "Value": {
+                "id": "22d47fba-a19c-4a9e-bf54-cb0e0fb2d146",
+                "resourcePath": "sprites\\spr_playButton\\spr_playButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8536b4e1-3ef4-4679-a539-3980189886a2",
             "Value": {
                 "id": "4e9d05e5-b293-4d89-a76c-9be8dca73d3c",
                 "resourcePath": "views\\8536b4e1-3ef4-4679-a539-3980189886a2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8da7e65d-3e78-4c58-bdba-58f1d2d58cea",
+            "Value": {
+                "id": "62ec7767-9709-467c-911b-60949d6934d0",
+                "resourcePath": "views\\8da7e65d-3e78-4c58-bdba-58f1d2d58cea.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -119,6 +151,14 @@
             }
         },
         {
+            "Key": "b13f9138-1bb2-447e-aebe-2f15857063fd",
+            "Value": {
+                "id": "fa59c5c7-ab8a-4ed3-a3f5-292f7baf4418",
+                "resourcePath": "views\\b13f9138-1bb2-447e-aebe-2f15857063fd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b3789ce6-11d4-42b9-92ab-d81bc8abff62",
             "Value": {
                 "id": "97048076-d601-439a-9cc3-bcdefe0a3e04",
@@ -130,7 +170,7 @@
             "Key": "ba36c183-5fc5-4f63-92d8-5ba0839337b8",
             "Value": {
                 "id": "bee5d199-83c7-4616-9a79-4ef9d7bdc1a4",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_startMenu\\rm_startMenu.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -140,6 +180,14 @@
                 "id": "f34ebd9c-0e02-4d95-a097-455f0611e9c8",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d54405ea-28d8-4dd7-8ff3-bc727515fef8",
+            "Value": {
+                "id": "86894753-86fa-4154-9920-c2b1fefb489b",
+                "resourcePath": "sprites\\spr_exitButton\\spr_exitButton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -175,6 +223,14 @@
             }
         },
         {
+            "Key": "ed0c5e81-f7a7-4dda-96aa-969bca85e885",
+            "Value": {
+                "id": "5f874aa9-45b3-4dac-b9d4-c903be537b86",
+                "resourcePath": "objects\\obj_exitButton\\obj_exitButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "3c112066-ce3f-489f-a74b-988b1db8f5db",
@@ -187,6 +243,14 @@
             "Value": {
                 "id": "5d5a404b-230b-4ed4-ba5c-80e42d8c6827",
                 "resourcePath": "views\\ff2a81dd-427c-49a5-a102-463d9111ef5c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fff58869-ec61-4612-a8c1-bf2295d29eaa",
+            "Value": {
+                "id": "e9784bae-7570-4626-a9c1-01e5a6c093a0",
+                "resourcePath": "views\\fff58869-ec61-4612-a8c1-bf2295d29eaa.yy",
                 "resourceType": "GMFolder"
             }
         }
