@@ -1,5 +1,5 @@
 /// @description ButtonPresseds
 
 if(MouseOn == true){
-	///Todo: zum nächsten Raum
+	room_goto(rm_ingame)
 }
