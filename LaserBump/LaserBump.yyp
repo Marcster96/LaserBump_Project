@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0d4a1848-b5c7-4665-ab4d-42a69868cadf",
+            "Value": {
+                "id": "fc877076-0215-4ed3-a7ff-411cc6b26f98",
+                "resourcePath": "objects\\obj_tabControll\\obj_tabControll.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0fc4b40a-7d6b-41fc-9ddb-b9d5dd0926e3",
             "Value": {
                 "id": "8ad31afc-ca85-4254-8c00-c646f0e10fb7",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "5e2e97ef-a574-40d6-8fc5-a7d9d088d119",
+            "Value": {
+                "id": "373b6c19-0eb8-41fe-ac8a-837b96dc7c5d",
+                "resourcePath": "views\\5e2e97ef-a574-40d6-8fc5-a7d9d088d119.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "64f7821f-d103-44e2-ac0f-df2fae3b7bd3",
             "Value": {
                 "id": "3a62b3d1-995c-4552-94bd-a89c4b59a699",
@@ -219,6 +235,14 @@
             "Value": {
                 "id": "854a3c25-1042-4ba4-9343-753011f37642",
                 "resourcePath": "views\\9e35d446-3061-4397-a880-d23cc1a3f4fb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9e5a9be9-d968-4b79-a5cd-5e2a5cf75cb4",
+            "Value": {
+                "id": "d5c4c2d2-33fe-40a8-b382-f401cb576827",
+                "resourcePath": "views\\9e5a9be9-d968-4b79-a5cd-5e2a5cf75cb4.yy",
                 "resourceType": "GMFolder"
             }
         },
