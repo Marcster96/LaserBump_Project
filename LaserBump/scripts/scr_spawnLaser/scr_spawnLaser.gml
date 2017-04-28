@@ -22,10 +22,6 @@ var leftBottomCorner_y = 2070
 var rightBottomCorner_x = 1230
 var rightBottomCorner_y = 2070
 
-//Debug
-show_debug_message("Erster Punkt: " + string(x1) + "/" + string(y1) + " " + "Zweiter Punkt: "+string(x2) + "/" + string(y2))
-
-
 
 var isInfinit = x2 - x1;
 if(isInfinit == 0){

@@ -115,7 +115,7 @@
             },
             "hspeed": 0,
             "htiled": false,
-            "spriteId": "fcba2c88-b659-4b3b-8984-fee61aadade0",
+            "spriteId": "00000000-0000-0000-0000-000000000000",
             "stretch": false,
             "userdefined_animFPS": false,
             "vspeed": 0,

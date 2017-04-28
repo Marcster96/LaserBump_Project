@@ -13,22 +13,22 @@ var right = 1230
 var wallNr = irandom_range(1,4)
 switch(wallNr){
 	case 1: // rechts
-		tubeX = 1230;
-		tubeY = irandom_range(300 ,1920)
+		tubeX = right;
+		tubeY = irandom_range(300 + sprite_get_height(spr_header),1920)
 		angle = 180;
 		break;
 	case 2: // links
-		tubeX = 150;
-		tubeY = irandom_range(300,1920)
+		tubeX = left;
+		tubeY = irandom_range(300 + sprite_get_height(spr_header),1920)
 		angle = 0;
 		break;
 	case 3: // oben
-		tubeY = 150;
+		tubeY = top + sprite_get_height(spr_header);
 		tubeX = irandom_range(300,1080)
 		angle = 270
 		break;
 	case 4: // unten
-		tubeY = 2070;
+		tubeY = bottom;
 		tubeX = irandom_range(300,1080)
 		angle = 90
 		break;
@@ -64,6 +64,22 @@ if(foundCollision){
 
 var tube = instance_create_layer(tubeX,tubeY,"Tubes",obj_tube)
 with(tube){
+	
+	switch(angle){
+		case 90: 
+			Orientation = orientation.bottom
+			break;
+		case 0:
+			Orientation = orientation.left
+			break;
+		case 180:
+			Orientation = orientation.right
+			break;
+		case 270:
+			Orientation = orientation.top
+			break;
+	}
+	
 	StepsToWalk = rangeOutsideTheWall
 	image_angle = angle
 	direction = angle

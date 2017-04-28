@@ -1,18 +1,5 @@
 /// @description CountSecoundsToIncreseLevel
-if(GameStarted){
-	Steps += 1;
-	if (Steps >= room_speed)
-	{
-		Steps = 0;
-		Seconds += 1;
-	}
-
-	if(Seconds >= 60)
-	{
-		Seconds = 0;
-		Minutes += 1;
-	}
-}else{
+if(!GameStarted){
 	Steps += 1
 	if(Steps >= room_speed){
 		Steps = 0;

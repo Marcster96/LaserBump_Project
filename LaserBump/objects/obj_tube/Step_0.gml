@@ -18,3 +18,4 @@ if(Forward){
 		instance_destroy()
 	}
 }
+
