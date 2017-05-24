@@ -15,3 +15,4 @@ StepsToWalk = 35
 TubeAlive = 10
 Forward = true
 AlarmSet = false
+TubeHit = false

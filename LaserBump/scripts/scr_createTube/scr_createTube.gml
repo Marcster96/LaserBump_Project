@@ -35,8 +35,8 @@ switch(wallNr){
 }
 
 var foundCollision = false
-var range = 100
-for(var i = 0; i < 100;i++){
+var range = 160
+for(var i = 0; i < range;i++){
 	if(position_meeting(tubeX + i,tubeY,obj_tube)){
 		foundCollision = true;
 		break;

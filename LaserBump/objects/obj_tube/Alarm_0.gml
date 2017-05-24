@@ -1,4 +1,5 @@
 /// @description DestroyTheTube
-
-Forward = false
-Steps = 0
+if(!TubeHit){
+	Forward = false
+	Steps = 0
+}

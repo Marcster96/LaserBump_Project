@@ -10,19 +10,6 @@ var y2 = argument3
 
 var laser
 
-var leftTopCorner_x = 150
-var leftTopCorner_y = 150
-
-var rightTopCorner_x = 1230
-var rightTopCorner_y = 150
-
-var leftBottomCorner_x = 150
-var leftBottomCorner_y = 2070
-
-var rightBottomCorner_x = 1230
-var rightBottomCorner_y = 2070
-
-
 var isInfinit = x2 - x1;
 if(isInfinit == 0){
 	isInfinit = true
